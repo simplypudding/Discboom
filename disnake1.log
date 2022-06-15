@@ -1,0 +1,280 @@
+2022-06-15 06:16:48,361:WARNING:disnake.state: Guilds intent seems to be disabled. This may cause state related issues.
+2022-06-15 06:16:48,362:WARNING:disnake.client: PyNaCl is not installed, voice will NOT be supported
+2022-06-15 06:16:48,362:DEBUG:disnake.client: on_ready has successfully been registered as an event
+2022-06-15 06:16:48,364:INFO:disnake.client: logging in using static token
+2022-06-15 06:16:48,444:DEBUG:disnake.http: GET https://discord.com/api/v10/users/@me with None has returned 200
+2022-06-15 06:16:48,444:DEBUG:disnake.http: GET https://discord.com/api/v10/users/@me has received {'id': '982371593655316480', 'username': 'Discboom', 'avatar': '01f9f9bb1677824859ba2f83ee43eec8', 'avatar_decoration': None, 'discriminator': '0321', 'public_flags': 0, 'flags': 0, 'bot': True, 'banner': None, 'banner_color': None, 'accent_color': None, 'bio': '', 'pronouns': '', 'locale': 'en-US', 'mfa_enabled': True, 'email': None, 'verified': True}
+2022-06-15 06:16:48,521:DEBUG:disnake.http: GET https://discord.com/api/v10/gateway/bot with None has returned 200
+2022-06-15 06:16:48,521:DEBUG:disnake.http: GET https://discord.com/api/v10/gateway/bot has received {'url': 'wss://gateway.discord.gg', 'shards': 1, 'session_start_limit': {'total': 1000, 'remaining': 990, 'reset_after': 76642063, 'max_concurrency': 1}}
+2022-06-15 06:16:48,571:DEBUG:disnake.gateway: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=10&compress=zlib-stream
+2022-06-15 06:16:48,571:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 10, 'd': {'heartbeat_interval': 41250, '_trace': ['["gateway-prd-main-nx1p",{"micros":0.0}]']}}
+2022-06-15 06:16:48,572:INFO:disnake.gateway: Shard ID None has sent the IDENTIFY payload.
+2022-06-15 06:16:48,592:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-06-15 06:16:48,938:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': 'READY', 's': 1, 'op': 0, 'd': {'v': 10, 'user_settings': {}, 'user': {'verified': True, 'username': 'Discboom', 'mfa_enabled': True, 'id': '982371593655316480', 'flags': 0, 'email': None, 'discriminator': '0321', 'bot': True, 'avatar': '01f9f9bb1677824859ba2f83ee43eec8'}, 'session_type': 'normal', 'session_id': '2abee425edc1d6f21d63300140b587bc', 'relationships': [], 'private_channels': [], 'presences': [], 'guilds': [{'unavailable': True, 'id': '521313032073117716'}, {'unavailable': True, 'id': '561030925534887939'}, {'unavailable': True, 'id': '565482039176855582'}, {'unavailable': True, 'id': '606297663289163776'}, {'unavailable': True, 'id': '715389856833994782'}, {'unavailable': True, 'id': '729878176183877672'}, {'unavailable': True, 'id': '730560671690784870'}, {'unavailable': True, 'id': '973856768566374460'}, {'unavailable': True, 'id': '974632655297605702'}, {'unavailable': True, 'id': '974826396843122729'}, {'unavailable': True, 'id': '975644417576824842'}, {'unavailable': True, 'id': '976972410274340894'}, {'unavailable': True, 'id': '978497121164607588'}, {'unavailable': True, 'id': '982349301596454952'}, {'unavailable': True, 'id': '982374168408502312'}, {'unavailable': True, 'id': '982463244121817178'}, {'unavailable': True, 'id': '982824397222064169'}, {'unavailable': True, 'id': '983079963341258813'}, {'unavailable': True, 'id': '983210523736809512'}, {'unavailable': True, 'id': '984099357576003666'}], 'guild_join_requests': [], 'geo_ordered_rtc_regions': ['us-south', 'us-central', 'atlanta', 'us-east', 'us-west'], 'application': {'id': '982371593655316480', 'flags': 2621440}, '_trace': ['["gateway-prd-main-nx1p",{"micros":343080,"calls":["discord-sessions-green-prd-2-36",{"micros":342438,"calls":["start_session",{"micros":115181,"calls":["discord-api-d887bb4d9-5njqj",{"micros":109954,"calls":["get_user",{"micros":25760},"add_authorized_ip",{"micros":9655},"get_guilds",{"micros":18136},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":11,"calls":[]},"presence_connect",{"micros":3,"calls":[]}]}]}]']}}
+2022-06-15 06:16:48,938:DEBUG:disnake.client: Dispatching event socket_event_type
+2022-06-15 06:16:48,938:INFO:disnake.gateway: Shard ID None has connected to Gateway: ["gateway-prd-main-nx1p",{"micros":343080,"calls":["discord-sessions-green-prd-2-36",{"micros":342438,"calls":["start_session",{"micros":115181,"calls":["discord-api-d887bb4d9-5njqj",{"micros":109954,"calls":["get_user",{"micros":25760},"add_authorized_ip",{"micros":9655},"get_guilds",{"micros":18136},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":11,"calls":[]},"presence_connect",{"micros":3,"calls":[]}]}]}] (Session ID: 2abee425edc1d6f21d63300140b587bc).
+2022-06-15 06:16:48,944:DEBUG:disnake.client: Dispatching event connect
+2022-06-15 06:16:49,027:DEBUG:disnake.http: GET https://discord.com/api/v10/oauth2/applications/@me with None has returned 200
+2022-06-15 06:16:49,027:DEBUG:disnake.http: GET https://discord.com/api/v10/oauth2/applications/@me has received {'id': '982371593655316480', 'name': 'Discboom Bot', 'icon': 'f0a60cb7ee893f502377f88c24f3c632', 'description': 'A bot made for the mobile game "Dislyte"', 'summary': '', 'type': None, 'hook': True, 'bot_public': True, 'bot_require_code_grant': False, 'verify_key': 'ff1d3d0ae570c264fbed833033863fe3b49bd58dd94d388d9538cdf7786be373', 'owner': {'id': '161968662540976128', 'username': '❤ Bea ❤', 'avatar': 'c1f786f7e2901701abd19b79f4b41ce9', 'avatar_decoration': None, 'discriminator': '9494', 'public_flags': 64, 'flags': 64}, 'flags': 2621440, 'team': None, 'tags': ['dislyte', 'gaming', 'info', 'mobile gaming']}
+2022-06-15 06:16:49,095:DEBUG:disnake.http: GET https://discord.com/api/v10/applications/982371593655316480/commands with None has returned 200
+2022-06-15 06:16:49,096:DEBUG:disnake.http: GET https://discord.com/api/v10/applications/982371593655316480/commands has received [{'id': '985066837681254400', 'application_id': '982371593655316480', 'version': '985066837681254409', 'default_permission': True, 'default_member_permissions': None, 'type': 1, 'name': 'elements', 'name_localizations': None, 'description': 'Prints a picture of the elemental strength/weakness chart', 'description_localizations': None, 'dm_permission': True}, {'id': '985066837681254401', 'application_id': '982371593655316480', 'version': '985066837739978762', 'default_permission': True, 'default_member_permissions': None, 'type': 1, 'name': 'esp', 'name_localizations': None, 'description': 'Shows esper tier list position and corresponding information', 'description_localizations': None, 'dm_permission': True, 'options': [{'type': 3, 'name': 'esp_name', 'name_localizations': None, 'description': '-', 'description_localizations': None, 'required': True}]}, {'id': '985066837681254402', 'application_id': '982371593655316480', 'version': '985066837739978763', 'default_permission': True, 'default_member_permissions': None, 'type': 1, 'name': 'disc', 'name_localizations': None, 'description': 'Sends an invite to the official Dislyte discord server', 'description_localizations': None, 'dm_permission': True}, {'id': '985066837681254403', 'application_id': '982371593655316480', 'version': '985066837739978764', 'default_permission': True, 'default_member_permissions': None, 'type': 1, 'name': 'bothelp', 'name_localizations': None, 'description': 'Sends an invite to the Discboom bot discord server', 'description_localizations': None, 'dm_permission': True}, {'id': '985066837681254404', 'application_id': '982371593655316480', 'version': '985066837739978765', 'default_permission': True, 'default_member_permissions': None, 'type': 1, 'name': 'invite', 'name_localizations': None, 'description': 'invite Discboom to your own server', 'description_localizations': None, 'dm_permission': True}, {'id': '985066837681254405', 'application_id': '982371593655316480', 'version': '985066837739978766', 'default_permission': True, 'default_member_permissions': None, 'type': 1, 'name': 'codes', 'name_localizations': None, 'description': 'Prints a list of the active disltye gift codes!', 'description_localizations': None, 'dm_permission': True}, {'id': '985066837681254406', 'application_id': '982371593655316480', 'version': '985066837739978767', 'default_permission': True, 'default_member_permissions': None, 'type': 1, 'name': 'contributors', 'name_localizations': None, 'description': 'A list of contributors to the bot and sources for all of our information', 'description_localizations': None, 'dm_permission': True}, {'id': '985066837681254407', 'application_id': '982371593655316480', 'version': '985066837739978768', 'default_permission': True, 'default_member_permissions': None, 'type': 1, 'name': 'holo', 'name_localizations': None, 'description': 'Helpful information about the holobattle system', 'description_localizations': None, 'dm_permission': True}, {'id': '985066837681254408', 'application_id': '982371593655316480', 'version': '985066837739978769', 'default_permission': True, 'default_member_permissions': None, 'type': 1, 'name': 'help', 'name_localizations': None, 'description': 'Display a list of bot commands', 'description_localizations': None, 'dm_permission': True}]
+2022-06-15 06:16:49,096:DEBUG:disnake.ext.commands.interaction_bot_base: Application command synchronization:
+GLOBAL COMMANDS
+===============
+| NOTE: global commands can take up to 1 hour to show up after registration.
+|
+| Update is required: False
+| To upsert:
+|     -
+| To edit:
+|     -
+| To delete:
+|     -
+| No changes:
+|     <SlashCommand name='elements'>
+|     <SlashCommand name='esp'>
+|     <SlashCommand name='disc'>
+|     <SlashCommand name='bothelp'>
+|     <SlashCommand name='invite'>
+|     <SlashCommand name='codes'>
+|     <SlashCommand name='contributors'>
+|     <SlashCommand name='holo'>
+|     <SlashCommand name='help'>
+2022-06-15 06:16:49,096:DEBUG:disnake.ext.commands.interaction_bot_base: Command synchronization task has finished
+2022-06-15 06:16:50,948:DEBUG:disnake.client: Dispatching event ready
+2022-06-15 06:16:54,453:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': 'INTERACTION_CREATE', 's': 2, 'op': 0, 'd': {'version': 1, 'type': 2, 'token': 'aW50ZXJhY3Rpb246OTg2NTE0NjIxOTExNDI1MDI0Om9BVTVCbGt6dVVkbkxaRkdrNDlLTjY5dGRmSE5jWVZRcUVxRlNHSFdZSFpjZjJZV3ZDaUY5WlI5UGFrWE1zVk8ycDRzaG02Y1VPNDZaM3c2YmNOV3pNWTBQS2R3M3U1d1VUd2x5cHRNRWZZRzlCZ1R5WjZUVDA0dFJFUHE0cGZX', 'member': {'user': {'username': '❤ Bea ❤', 'public_flags': 64, 'id': '161968662540976128', 'discriminator': '9494', 'avatar_decoration': None, 'avatar': 'c1f786f7e2901701abd19b79f4b41ce9'}, 'roles': ['983206788637798450', '982360152915181578', '982363898466414612'], 'premium_since': None, 'permissions': '4398046511103', 'pending': False, 'nick': '❤ Bea ❤ | BeaKind', 'mute': False, 'joined_at': '2022-06-03T18:50:18.508000+00:00', 'is_pending': False, 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'avatar': None}, 'locale': 'en-US', 'id': '986514621911425024', 'guild_locale': 'en-US', 'guild_id': '982349301596454952', 'data': {'type': 1, 'options': [{'value': 'ra', 'type': 3, 'name': 'esp_name'}], 'name': 'esp', 'id': '985066837681254401'}, 'channel_id': '983221569935515729', 'application_id': '982371593655316480'}}
+2022-06-15 06:16:54,453:DEBUG:disnake.client: Dispatching event socket_event_type
+2022-06-15 06:16:54,453:DEBUG:disnake.client: Dispatching event application_command
+2022-06-15 06:16:54,453:DEBUG:disnake.client: Dispatching event interaction
+2022-06-15 06:16:54,453:DEBUG:disnake.client: Dispatching event slash_command
+2022-06-15 06:16:54,563:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 3, 'op': 0, 'd': {'webhook_id': '982371593655316480', 'type': 20, 'tts': False, 'timestamp': '2022-06-15T06:16:54.524000+00:00', 'pinned': False, 'nonce': '986514621659611136', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': ['982711082084884520', '982375133333307455'], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2022-06-03T20:08:03.499000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'avatar': None}, 'interaction': {'user': {'username': '❤ Bea ❤', 'public_flags': 64, 'id': '161968662540976128', 'discriminator': '9494', 'avatar_decoration': None, 'avatar': 'c1f786f7e2901701abd19b79f4b41ce9'}, 'type': 2, 'name': 'esp', 'member': {'roles': ['983206788637798450', '982360152915181578', '982363898466414612'], 'premium_since': None, 'pending': False, 'nick': '❤ Bea ❤ | BeaKind', 'mute': False, 'joined_at': '2022-06-03T18:50:18.508000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'avatar': None}, 'id': '986514621911425024'}, 'id': '986514622351831130', 'flags': 0, 'embeds': [{'type': 'rich', 'title': 'Boomboom has returned multiple esper results!', 'thumbnail': {'width': 256, 'url': 'https://cdn.discordapp.com/attachments/983263319341285457/983602199655514132/unknown.png', 'proxy_url': 'https://media.discordapp.net/attachments/983263319341285457/983602199655514132/unknown.png', 'height': 256}, 'fields': [{'value': 'Narmer (Ra)', 'name': '1:', 'inline': True}, {'value': 'Raven (Odin)', 'name': '2:', 'inline': True}], 'description': "Please select which esper you're looking for", 'color': 9470194}], 'edited_timestamp': None, 'content': '', 'components': [], 'channel_id': '983221569935515729', 'author': {'username': 'Discboom', 'public_flags': 0, 'id': '982371593655316480', 'discriminator': '0321', 'bot': True, 'avatar_decoration': None, 'avatar': '01f9f9bb1677824859ba2f83ee43eec8'}, 'attachments': [], 'application_id': '982371593655316480', 'guild_id': '982349301596454952'}}
+2022-06-15 06:16:54,563:DEBUG:disnake.client: Dispatching event socket_event_type
+2022-06-15 06:16:54,563:DEBUG:disnake.client: Dispatching event message
+2022-06-15 06:16:54,642:DEBUG:disnake.webhook.async_: Webhook ID 986514621911425024 with POST https://discord.com/api/v10/interactions/986514621911425024/aW50ZXJhY3Rpb246OTg2NTE0NjIxOTExNDI1MDI0Om9BVTVCbGt6dVVkbkxaRkdrNDlLTjY5dGRmSE5jWVZRcUVxRlNHSFdZSFpjZjJZV3ZDaUY5WlI5UGFrWE1zVk8ycDRzaG02Y1VPNDZaM3c2YmNOV3pNWTBQS2R3M3U1d1VUd2x5cHRNRWZZRzlCZ1R5WjZUVDA0dFJFUHE0cGZX/callback with {"type":4,"data":{"tts":false,"embeds":[{"thumbnail":{"url":"https://cdn.discordapp.com/attachments/983263319341285457/983602199655514132/unknown.png"},"fields":[{"inline":true,"name":"1:","value":"Narmer (Ra)"},{"inline":true,"name":"2:","value":"Raven (Odin)"}],"color":9470194,"type":"rich","description":"Please select which esper you're looking for","title":"Boomboom has returned multiple esper results!"}],"flags":0}} has returned status code 204
+2022-06-15 06:16:54,642:DEBUG:disnake.webhook.async_: POST https://discord.com/api/v10/interactions/986514621911425024/aW50ZXJhY3Rpb246OTg2NTE0NjIxOTExNDI1MDI0Om9BVTVCbGt6dVVkbkxaRkdrNDlLTjY5dGRmSE5jWVZRcUVxRlNHSFdZSFpjZjJZV3ZDaUY5WlI5UGFrWE1zVk8ycDRzaG02Y1VPNDZaM3c2YmNOV3pNWTBQS2R3M3U1d1VUd2x5cHRNRWZZRzlCZ1R5WjZUVDA0dFJFUHE0cGZX/callback has received None
+2022-06-15 06:16:54,699:DEBUG:disnake.webhook.async_: Webhook ID 982371593655316480 with GET https://discord.com/api/v10/webhooks/982371593655316480/aW50ZXJhY3Rpb246OTg2NTE0NjIxOTExNDI1MDI0Om9BVTVCbGt6dVVkbkxaRkdrNDlLTjY5dGRmSE5jWVZRcUVxRlNHSFdZSFpjZjJZV3ZDaUY5WlI5UGFrWE1zVk8ycDRzaG02Y1VPNDZaM3c2YmNOV3pNWTBQS2R3M3U1d1VUd2x5cHRNRWZZRzlCZ1R5WjZUVDA0dFJFUHE0cGZX/messages/@original with None has returned status code 200
+2022-06-15 06:16:54,699:DEBUG:disnake.webhook.async_: GET https://discord.com/api/v10/webhooks/982371593655316480/aW50ZXJhY3Rpb246OTg2NTE0NjIxOTExNDI1MDI0Om9BVTVCbGt6dVVkbkxaRkdrNDlLTjY5dGRmSE5jWVZRcUVxRlNHSFdZSFpjZjJZV3ZDaUY5WlI5UGFrWE1zVk8ycDRzaG02Y1VPNDZaM3c2YmNOV3pNWTBQS2R3M3U1d1VUd2x5cHRNRWZZRzlCZ1R5WjZUVDA0dFJFUHE0cGZX/messages/@original has received {'id': '986514622351831130', 'type': 20, 'content': '', 'channel_id': '983221569935515729', 'author': {'id': '982371593655316480', 'username': 'Discboom', 'avatar': '01f9f9bb1677824859ba2f83ee43eec8', 'avatar_decoration': None, 'discriminator': '0321', 'public_flags': 0, 'bot': True}, 'attachments': [], 'embeds': [{'type': 'rich', 'title': 'Boomboom has returned multiple esper results!', 'description': "Please select which esper you're looking for", 'color': 9470194, 'fields': [{'name': '1:', 'value': 'Narmer (Ra)', 'inline': True}, {'name': '2:', 'value': 'Raven (Odin)', 'inline': True}], 'thumbnail': {'url': 'https://cdn.discordapp.com/attachments/983263319341285457/983602199655514132/unknown.png', 'proxy_url': 'https://media.discordapp.net/attachments/983263319341285457/983602199655514132/unknown.png', 'width': 256, 'height': 256}}], 'mentions': [], 'mention_roles': [], 'pinned': False, 'mention_everyone': False, 'tts': False, 'timestamp': '2022-06-15T06:16:54.524000+00:00', 'edited_timestamp': None, 'flags': 0, 'components': [], 'application_id': '982371593655316480', 'interaction': {'id': '986514621911425024', 'type': 2, 'name': 'esp', 'user': {'id': '161968662540976128', 'username': '❤ Bea ❤', 'avatar': 'c1f786f7e2901701abd19b79f4b41ce9', 'avatar_decoration': None, 'discriminator': '9494', 'public_flags': 64}}, 'webhook_id': '982371593655316480'}
+2022-06-15 06:16:54,857:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': 'MESSAGE_REACTION_ADD', 's': 4, 'op': 0, 'd': {'user_id': '982371593655316480', 'message_id': '986514622351831130', 'member': {'user': {'username': 'Discboom', 'public_flags': 0, 'id': '982371593655316480', 'discriminator': '0321', 'bot': True, 'avatar': '01f9f9bb1677824859ba2f83ee43eec8'}, 'roles': ['982711082084884520', '982375133333307455'], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2022-06-03T20:08:03.499000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'avatar': None}, 'emoji': {'name': '1️⃣', 'id': None}, 'channel_id': '983221569935515729', 'guild_id': '982349301596454952'}}
+2022-06-15 06:16:54,857:DEBUG:disnake.client: Dispatching event socket_event_type
+2022-06-15 06:16:54,857:DEBUG:disnake.client: Dispatching event raw_reaction_add
+2022-06-15 06:16:54,858:DEBUG:disnake.client: Dispatching event reaction_add
+2022-06-15 06:16:54,864:DEBUG:disnake.http: PUT https://discord.com/api/v10/channels/983221569935515729/messages/986514622351831130/reactions/1%EF%B8%8F%E2%83%A3/@me with None has returned 204
+2022-06-15 06:16:54,864:DEBUG:disnake.http: A rate limit bucket has been exhausted (bucket: 983221569935515729:None:/channels/{channel_id}/messages/{message_id}/reactions/{emoji}/@me, retry: 0.25).
+2022-06-15 06:16:54,864:DEBUG:disnake.http: PUT https://discord.com/api/v10/channels/983221569935515729/messages/986514622351831130/reactions/1%EF%B8%8F%E2%83%A3/@me has received 
+2022-06-15 06:16:55,199:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': 'MESSAGE_REACTION_ADD', 's': 5, 'op': 0, 'd': {'user_id': '982371593655316480', 'message_id': '986514622351831130', 'member': {'user': {'username': 'Discboom', 'public_flags': 0, 'id': '982371593655316480', 'discriminator': '0321', 'bot': True, 'avatar': '01f9f9bb1677824859ba2f83ee43eec8'}, 'roles': ['982711082084884520', '982375133333307455'], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2022-06-03T20:08:03.499000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'avatar': None}, 'emoji': {'name': '2️⃣', 'id': None}, 'channel_id': '983221569935515729', 'guild_id': '982349301596454952'}}
+2022-06-15 06:16:55,199:DEBUG:disnake.client: Dispatching event socket_event_type
+2022-06-15 06:16:55,199:DEBUG:disnake.client: Dispatching event raw_reaction_add
+2022-06-15 06:16:55,199:DEBUG:disnake.client: Dispatching event reaction_add
+2022-06-15 06:16:55,203:DEBUG:disnake.http: PUT https://discord.com/api/v10/channels/983221569935515729/messages/986514622351831130/reactions/2%EF%B8%8F%E2%83%A3/@me with None has returned 204
+2022-06-15 06:16:55,203:DEBUG:disnake.http: A rate limit bucket has been exhausted (bucket: 983221569935515729:None:/channels/{channel_id}/messages/{message_id}/reactions/{emoji}/@me, retry: 0.25).
+2022-06-15 06:16:55,203:DEBUG:disnake.http: PUT https://discord.com/api/v10/channels/983221569935515729/messages/986514622351831130/reactions/2%EF%B8%8F%E2%83%A3/@me has received 
+2022-06-15 06:16:57,156:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': 'MESSAGE_REACTION_ADD', 's': 6, 'op': 0, 'd': {'user_id': '161968662540976128', 'message_id': '986514622351831130', 'member': {'user': {'username': '❤ Bea ❤', 'public_flags': 64, 'id': '161968662540976128', 'discriminator': '9494', 'bot': False, 'avatar': 'c1f786f7e2901701abd19b79f4b41ce9'}, 'roles': ['983206788637798450', '982360152915181578', '982363898466414612'], 'premium_since': None, 'pending': False, 'nick': '❤ Bea ❤ | BeaKind', 'mute': False, 'joined_at': '2022-06-03T18:50:18.508000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'avatar': None}, 'emoji': {'name': '1️⃣', 'id': None}, 'channel_id': '983221569935515729', 'guild_id': '982349301596454952'}}
+2022-06-15 06:16:57,156:DEBUG:disnake.client: Dispatching event socket_event_type
+2022-06-15 06:16:57,156:DEBUG:disnake.client: Dispatching event raw_reaction_add
+2022-06-15 06:16:57,156:DEBUG:disnake.client: Dispatching event reaction_add
+2022-06-15 06:16:57,240:DEBUG:disnake.http: DELETE https://discord.com/api/v10/channels/983221569935515729/messages/986514622351831130/reactions with None has returned 204
+2022-06-15 06:16:57,240:DEBUG:disnake.http: A rate limit bucket has been exhausted (bucket: 983221569935515729:None:/channels/{channel_id}/messages/{message_id}/reactions, retry: 0.25).
+2022-06-15 06:16:57,240:DEBUG:disnake.http: DELETE https://discord.com/api/v10/channels/983221569935515729/messages/986514622351831130/reactions has received 
+2022-06-15 06:16:57,258:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': 'MESSAGE_REACTION_REMOVE_ALL', 's': 7, 'op': 0, 'd': {'message_id': '986514622351831130', 'channel_id': '983221569935515729', 'guild_id': '982349301596454952'}}
+2022-06-15 06:16:57,258:DEBUG:disnake.client: Dispatching event socket_event_type
+2022-06-15 06:16:57,258:DEBUG:disnake.client: Dispatching event raw_reaction_clear
+2022-06-15 06:16:57,258:DEBUG:disnake.client: Dispatching event reaction_clear
+2022-06-15 06:16:57,337:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': 'MESSAGE_UPDATE', 's': 8, 'op': 0, 'd': {'webhook_id': '982371593655316480', 'type': 20, 'tts': False, 'timestamp': '2022-06-15T06:16:54.524000+00:00', 'pinned': False, 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': ['982711082084884520', '982375133333307455'], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2022-06-03T20:08:03.499000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'avatar': None}, 'interaction': {'user': {'username': '❤ Bea ❤', 'public_flags': 64, 'id': '161968662540976128', 'discriminator': '9494', 'avatar_decoration': None, 'avatar': 'c1f786f7e2901701abd19b79f4b41ce9'}, 'type': 2, 'name': 'esp', 'member': {'roles': ['983206788637798450', '982360152915181578', '982363898466414612'], 'premium_since': None, 'pending': False, 'nick': '❤ Bea ❤ | BeaKind', 'mute': False, 'joined_at': '2022-06-03T18:50:18.508000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'avatar': None}, 'id': '986514621911425024'}, 'id': '986514622351831130', 'flags': 0, 'embeds': [{'url': 'https://dislyte.fandom.com/wiki/Narmer_(Ra)', 'type': 'rich', 'title': 'Narmer (Ra)', 'thumbnail': {'width': 0, 'url': 'https://cdn.discordapp.com/attachments/910693332856995902/983567661743087667/Narmer.png', 'proxy_url': 'https://media.discordapp.net/attachments/910693332856995902/983567661743087667/Narmer.png', 'height': 0}, 'footer': {'text': 'Please report any bugs here! https://discord.gg/ttsVvYMxyA', 'proxy_icon_url': 'https://media.discordapp.net/attachments/449419840101285907/983977795225010216/Discboom.png', 'icon_url': 'https://cdn.discordapp.com/attachments/449419840101285907/983977795225010216/Discboom.png'}, 'fields': [{'value': '#10', 'name': 'Overall Rank', 'inline': True}, {'value': '#3', 'name': 'Fighter Rank', 'inline': True}, {'value': '7.96', 'name': 'Power Score', 'inline': True}, {'value': "Narmer is currently one of the strongest DPS Espers in the game. His A3 can inflict high damage, provided that your team's composition and strategy is built or centered around him and his 'Burning Sun' buff. His A3's damage at 5 stacks of 'Burning Sun' ignores 40% DEF, making him one of the few Espers that can crush high DEF teams.", 'name': 'Description', 'inline': False}, {'value': 'A-', 'name': 'Story', 'inline': True}, {'value': 'S', 'name': 'Cube', 'inline': True}, {'value': 'S', 'name': 'Tower', 'inline': True}, {'value': 'A+', 'name': 'Kronos', 'inline': True}, {'value': 'A+', 'name': 'Apep', 'inline': True}, {'value': 'D', 'name': 'Fafnir', 'inline': True}, {'value': 'S+', 'name': 'Point War (DEF)', 'inline': True}, {'value': 'S+', 'name': 'Point War (ATK)', 'inline': True}], 'description': '5 :star: Fighter', 'color': 16747520, 'author': {'proxy_icon_url': 'https://media.discordapp.net/attachments/910693332856995902/983583081506177054/Inferno.png', 'name': 'Esper Info: Tiers', 'icon_url': 'https://cdn.discordapp.com/attachments/910693332856995902/983583081506177054/Inferno.png'}}], 'edited_timestamp': '2022-06-15T06:16:57.304647+00:00', 'content': '', 'components': [], 'channel_id': '983221569935515729', 'author': {'username': 'Discboom', 'public_flags': 0, 'id': '982371593655316480', 'discriminator': '0321', 'bot': True, 'avatar_decoration': None, 'avatar': '01f9f9bb1677824859ba2f83ee43eec8'}, 'attachments': [], 'application_id': '982371593655316480', 'guild_id': '982349301596454952'}}
+2022-06-15 06:16:57,338:DEBUG:disnake.client: Dispatching event socket_event_type
+2022-06-15 06:16:57,338:DEBUG:disnake.client: Dispatching event raw_message_edit
+2022-06-15 06:16:57,338:DEBUG:disnake.client: Dispatching event message_edit
+2022-06-15 06:16:57,352:DEBUG:disnake.webhook.async_: Webhook ID 982371593655316480 with PATCH https://discord.com/api/v10/webhooks/982371593655316480/aW50ZXJhY3Rpb246OTg2NTE0NjIxOTExNDI1MDI0Om9BVTVCbGt6dVVkbkxaRkdrNDlLTjY5dGRmSE5jWVZRcUVxRlNHSFdZSFpjZjJZV3ZDaUY5WlI5UGFrWE1zVk8ycDRzaG02Y1VPNDZaM3c2YmNOV3pNWTBQS2R3M3U1d1VUd2x5cHRNRWZZRzlCZ1R5WjZUVDA0dFJFUHE0cGZX/messages/@original with {"embeds":[{"footer":{"text":"Please report any bugs here! https://discord.gg/ttsVvYMxyA","icon_url":"https://cdn.discordapp.com/attachments/449419840101285907/983977795225010216/Discboom.png"},"thumbnail":{"url":"https://cdn.discordapp.com/attachments/910693332856995902/983567661743087667/Narmer.png"},"author":{"name":"Esper Info: Tiers","icon_url":"https://cdn.discordapp.com/attachments/910693332856995902/983583081506177054/Inferno.png"},"fields":[{"inline":true,"name":"Overall Rank","value":"#10"},{"inline":true,"name":"Fighter Rank","value":"#3"},{"inline":true,"name":"Power Score","value":"7.96"},{"inline":false,"name":"Description","value":"Narmer is currently one of the strongest DPS Espers in the game. His A3 can inflict high damage, provided that your team's composition and strategy is built or centered around him and his 'Burning Sun' buff. His A3's damage at 5 stacks of 'Burning Sun' ignores 40% DEF, making him one of the few Espers that can crush high DEF teams."},{"inline":true,"name":"Story","value":"A-"},{"inline":true,"name":"Cube","value":"S"},{"inline":true,"name":"Tower","value":"S"},{"inline":true,"name":"Kronos","value":"A+"},{"inline":true,"name":"Apep","value":"A+"},{"inline":true,"name":"Fafnir","value":"D"},{"inline":true,"name":"Point War (DEF)","value":"S+"},{"inline":true,"name":"Point War (ATK)","value":"S+"}],"color":16747520,"type":"rich","description":"5 :star: Fighter","url":"https://dislyte.fandom.com/wiki/Narmer_(Ra)","title":"Narmer (Ra)"}],"tts":false} has returned status code 200
+2022-06-15 06:16:57,353:DEBUG:disnake.webhook.async_: PATCH https://discord.com/api/v10/webhooks/982371593655316480/aW50ZXJhY3Rpb246OTg2NTE0NjIxOTExNDI1MDI0Om9BVTVCbGt6dVVkbkxaRkdrNDlLTjY5dGRmSE5jWVZRcUVxRlNHSFdZSFpjZjJZV3ZDaUY5WlI5UGFrWE1zVk8ycDRzaG02Y1VPNDZaM3c2YmNOV3pNWTBQS2R3M3U1d1VUd2x5cHRNRWZZRzlCZ1R5WjZUVDA0dFJFUHE0cGZX/messages/@original has received {'id': '986514622351831130', 'type': 20, 'content': '', 'channel_id': '983221569935515729', 'author': {'id': '982371593655316480', 'username': 'Discboom', 'avatar': '01f9f9bb1677824859ba2f83ee43eec8', 'avatar_decoration': None, 'discriminator': '0321', 'public_flags': 0, 'bot': True}, 'attachments': [], 'embeds': [{'type': 'rich', 'url': 'https://dislyte.fandom.com/wiki/Narmer_(Ra)', 'title': 'Narmer (Ra)', 'description': '5 :star: Fighter', 'color': 16747520, 'fields': [{'name': 'Overall Rank', 'value': '#10', 'inline': True}, {'name': 'Fighter Rank', 'value': '#3', 'inline': True}, {'name': 'Power Score', 'value': '7.96', 'inline': True}, {'name': 'Description', 'value': "Narmer is currently one of the strongest DPS Espers in the game. His A3 can inflict high damage, provided that your team's composition and strategy is built or centered around him and his 'Burning Sun' buff. His A3's damage at 5 stacks of 'Burning Sun' ignores 40% DEF, making him one of the few Espers that can crush high DEF teams.", 'inline': False}, {'name': 'Story', 'value': 'A-', 'inline': True}, {'name': 'Cube', 'value': 'S', 'inline': True}, {'name': 'Tower', 'value': 'S', 'inline': True}, {'name': 'Kronos', 'value': 'A+', 'inline': True}, {'name': 'Apep', 'value': 'A+', 'inline': True}, {'name': 'Fafnir', 'value': 'D', 'inline': True}, {'name': 'Point War (DEF)', 'value': 'S+', 'inline': True}, {'name': 'Point War (ATK)', 'value': 'S+', 'inline': True}], 'author': {'name': 'Esper Info: Tiers', 'icon_url': 'https://cdn.discordapp.com/attachments/910693332856995902/983583081506177054/Inferno.png', 'proxy_icon_url': 'https://media.discordapp.net/attachments/910693332856995902/983583081506177054/Inferno.png'}, 'thumbnail': {'url': 'https://cdn.discordapp.com/attachments/910693332856995902/983567661743087667/Narmer.png', 'proxy_url': 'https://media.discordapp.net/attachments/910693332856995902/983567661743087667/Narmer.png', 'width': 0, 'height': 0}, 'footer': {'text': 'Please report any bugs here! https://discord.gg/ttsVvYMxyA', 'icon_url': 'https://cdn.discordapp.com/attachments/449419840101285907/983977795225010216/Discboom.png', 'proxy_icon_url': 'https://media.discordapp.net/attachments/449419840101285907/983977795225010216/Discboom.png'}}], 'mentions': [], 'mention_roles': [], 'pinned': False, 'mention_everyone': False, 'tts': False, 'timestamp': '2022-06-15T06:16:54.524000+00:00', 'edited_timestamp': '2022-06-15T06:16:57.304647+00:00', 'flags': 0, 'components': [], 'application_id': '982371593655316480', 'interaction': {'id': '986514621911425024', 'type': 2, 'name': 'esp', 'user': {'id': '161968662540976128', 'username': '❤ Bea ❤', 'avatar': 'c1f786f7e2901701abd19b79f4b41ce9', 'avatar_decoration': None, 'discriminator': '9494', 'public_flags': 64}}, 'webhook_id': '982371593655316480'}
+2022-06-15 06:16:57,421:DEBUG:disnake.http: PUT https://discord.com/api/v10/channels/983221569935515729/messages/986514622351831130/reactions/%E2%96%B6/@me with None has returned 429
+2022-06-15 06:16:57,421:WARNING:disnake.http: We are being rate limited. Retrying in 0.04 seconds. Handled under the bucket "983221569935515729:None:/channels/{channel_id}/messages/{message_id}/reactions/{emoji}/@me"
+2022-06-15 06:16:57,464:DEBUG:disnake.http: Done sleeping for the rate limit. Retrying...
+2022-06-15 06:16:57,507:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': 'MESSAGE_UPDATE', 's': 9, 'op': 0, 'd': {'id': '986514622351831130', 'embeds': [{'url': 'https://dislyte.fandom.com/wiki/Narmer_(Ra)', 'type': 'rich', 'title': 'Narmer (Ra)', 'thumbnail': {'width': 256, 'url': 'https://cdn.discordapp.com/attachments/910693332856995902/983567661743087667/Narmer.png', 'proxy_url': 'https://media.discordapp.net/attachments/910693332856995902/983567661743087667/Narmer.png', 'height': 256}, 'footer': {'text': 'Please report any bugs here! https://discord.gg/ttsVvYMxyA', 'proxy_icon_url': 'https://media.discordapp.net/attachments/449419840101285907/983977795225010216/Discboom.png', 'icon_url': 'https://cdn.discordapp.com/attachments/449419840101285907/983977795225010216/Discboom.png'}, 'fields': [{'value': '#10', 'name': 'Overall Rank', 'inline': True}, {'value': '#3', 'name': 'Fighter Rank', 'inline': True}, {'value': '7.96', 'name': 'Power Score', 'inline': True}, {'value': "Narmer is currently one of the strongest DPS Espers in the game. His A3 can inflict high damage, provided that your team's composition and strategy is built or centered around him and his 'Burning Sun' buff. His A3's damage at 5 stacks of 'Burning Sun' ignores 40% DEF, making him one of the few Espers that can crush high DEF teams.", 'name': 'Description', 'inline': False}, {'value': 'A-', 'name': 'Story', 'inline': True}, {'value': 'S', 'name': 'Cube', 'inline': True}, {'value': 'S', 'name': 'Tower', 'inline': True}, {'value': 'A+', 'name': 'Kronos', 'inline': True}, {'value': 'A+', 'name': 'Apep', 'inline': True}, {'value': 'D', 'name': 'Fafnir', 'inline': True}, {'value': 'S+', 'name': 'Point War (DEF)', 'inline': True}, {'value': 'S+', 'name': 'Point War (ATK)', 'inline': True}], 'description': '5 :star: Fighter', 'color': 16747520, 'author': {'proxy_icon_url': 'https://media.discordapp.net/attachments/910693332856995902/983583081506177054/Inferno.png', 'name': 'Esper Info: Tiers', 'icon_url': 'https://cdn.discordapp.com/attachments/910693332856995902/983583081506177054/Inferno.png'}}], 'channel_id': '983221569935515729', 'guild_id': '982349301596454952'}}
+2022-06-15 06:16:57,507:DEBUG:disnake.client: Dispatching event socket_event_type
+2022-06-15 06:16:57,507:DEBUG:disnake.client: Dispatching event raw_message_edit
+2022-06-15 06:16:57,507:DEBUG:disnake.client: Dispatching event message_edit
+2022-06-15 06:16:57,577:DEBUG:disnake.http: PUT https://discord.com/api/v10/channels/983221569935515729/messages/986514622351831130/reactions/%E2%96%B6/@me with None has returned 204
+2022-06-15 06:16:57,577:DEBUG:disnake.http: A rate limit bucket has been exhausted (bucket: 983221569935515729:None:/channels/{channel_id}/messages/{message_id}/reactions/{emoji}/@me, retry: 0.25).
+2022-06-15 06:16:57,577:DEBUG:disnake.http: PUT https://discord.com/api/v10/channels/983221569935515729/messages/986514622351831130/reactions/%E2%96%B6/@me has received 
+2022-06-15 06:16:57,581:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': 'MESSAGE_REACTION_ADD', 's': 10, 'op': 0, 'd': {'user_id': '982371593655316480', 'message_id': '986514622351831130', 'member': {'user': {'username': 'Discboom', 'public_flags': 0, 'id': '982371593655316480', 'discriminator': '0321', 'bot': True, 'avatar': '01f9f9bb1677824859ba2f83ee43eec8'}, 'roles': ['982711082084884520', '982375133333307455'], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2022-06-03T20:08:03.499000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'avatar': None}, 'emoji': {'name': '▶', 'id': None}, 'channel_id': '983221569935515729', 'guild_id': '982349301596454952'}}
+2022-06-15 06:16:57,581:DEBUG:disnake.client: Dispatching event socket_event_type
+2022-06-15 06:16:57,582:DEBUG:disnake.client: Dispatching event raw_reaction_add
+2022-06-15 06:16:57,582:DEBUG:disnake.client: Dispatching event reaction_add
+2022-06-15 06:17:26,475:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 11, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2022-06-15T06:17:26.383000+00:00', 'referenced_message': None, 'pinned': False, 'nonce': '992685531911421952', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': ['983982491348119632', '983983042198642748'], 'premium_since': None, 'pending': False, 'nick': '🍙MathgarKjollar🍙', 'mute': False, 'joined_at': '2022-05-16T09:56:26.680000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'avatar': None}, 'id': '986514755978149899', 'flags': 0, 'embeds': [], 'edited_timestamp': None, 'content': '', 'components': [], 'channel_id': '983543520910536744', 'author': {'username': 'Nomalcer', 'public_flags': 0, 'id': '350419593027911691', 'discriminator': '1552', 'avatar_decoration': None, 'avatar': '584e8162dc56313727c2d95e611fd124'}, 'attachments': [{'width': 1080, 'url': 'https://cdn.discordapp.com/attachments/983543520910536744/986514756082995220/Screenshot_20220615-131711_Dislyte.png', 'size': 534255, 'proxy_url': 'https://media.discordapp.net/attachments/983543520910536744/986514756082995220/Screenshot_20220615-131711_Dislyte.png', 'id': '986514756082995220', 'height': 2280, 'filename': 'Screenshot_20220615-131711_Dislyte.png', 'content_type': 'image/png'}], 'guild_id': '974826396843122729'}}
+2022-06-15 06:17:26,476:DEBUG:disnake.client: Dispatching event socket_event_type
+2022-06-15 06:17:26,476:DEBUG:disnake.client: Dispatching event message
+2022-06-15 06:17:27,655:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': 'MESSAGE_REACTION_REMOVE_ALL', 's': 12, 'op': 0, 'd': {'message_id': '986514622351831130', 'channel_id': '983221569935515729', 'guild_id': '982349301596454952'}}
+2022-06-15 06:17:27,655:DEBUG:disnake.client: Dispatching event socket_event_type
+2022-06-15 06:17:27,655:DEBUG:disnake.client: Dispatching event raw_reaction_clear
+2022-06-15 06:17:27,655:DEBUG:disnake.client: Dispatching event reaction_clear
+2022-06-15 06:17:27,657:DEBUG:disnake.http: DELETE https://discord.com/api/v10/channels/983221569935515729/messages/986514622351831130/reactions with None has returned 204
+2022-06-15 06:17:27,657:DEBUG:disnake.http: A rate limit bucket has been exhausted (bucket: 983221569935515729:None:/channels/{channel_id}/messages/{message_id}/reactions, retry: 0.25).
+2022-06-15 06:17:27,658:DEBUG:disnake.http: DELETE https://discord.com/api/v10/channels/983221569935515729/messages/986514622351831130/reactions has received 
+2022-06-15 06:17:29,849:DEBUG:disnake.gateway: Keeping shard ID None websocket alive with sequence 12.
+2022-06-15 06:17:40,300:WARNING:disnake.gateway: Shard ID None heartbeat blocked for more than 10 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/container/main.py", line 388, in <module>
+    bot.run(disc_token)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/client.py", line 934, in run
+    loop.run_forever()
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
+    self._run_once()
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
+    handle._run()
+  File "/usr/local/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/client.py", line 612, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/interaction_bot_base.py", line 1272, in on_application_command
+    await self.process_application_commands(interaction)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/interaction_bot_base.py", line 1264, in process_application_commands
+    await app_command.invoke(interaction)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/slash_core.py", line 680, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/params.py", line 817, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/utils.py", line 580, in maybe_coroutine
+    return await value
+  File "/home/container/main.py", line 304, in esp
+    while active == 1:
+
+2022-06-15 06:17:50,491:WARNING:disnake.gateway: Shard ID None heartbeat blocked for more than 20 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/container/main.py", line 388, in <module>
+    bot.run(disc_token)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/client.py", line 934, in run
+    loop.run_forever()
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
+    self._run_once()
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
+    handle._run()
+  File "/usr/local/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/client.py", line 612, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/interaction_bot_base.py", line 1272, in on_application_command
+    await self.process_application_commands(interaction)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/interaction_bot_base.py", line 1264, in process_application_commands
+    await app_command.invoke(interaction)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/slash_core.py", line 680, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/params.py", line 817, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/utils.py", line 580, in maybe_coroutine
+    return await value
+  File "/home/container/main.py", line 305, in esp
+    if str(reaction) == "▶":
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/reaction.py", line 116, in __str__
+    return str(self.emoji)
+
+2022-06-15 06:18:00,591:WARNING:disnake.gateway: Shard ID None heartbeat blocked for more than 30 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/container/main.py", line 388, in <module>
+    bot.run(disc_token)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/client.py", line 934, in run
+    loop.run_forever()
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
+    self._run_once()
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
+    handle._run()
+  File "/usr/local/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/client.py", line 612, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/interaction_bot_base.py", line 1272, in on_application_command
+    await self.process_application_commands(interaction)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/interaction_bot_base.py", line 1264, in process_application_commands
+    await app_command.invoke(interaction)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/slash_core.py", line 680, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/params.py", line 817, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/utils.py", line 580, in maybe_coroutine
+    return await value
+  File "/home/container/main.py", line 305, in esp
+    if str(reaction) == "▶":
+
+2022-06-15 06:18:10,689:WARNING:disnake.gateway: Shard ID None heartbeat blocked for more than 40 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/container/main.py", line 388, in <module>
+    bot.run(disc_token)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/client.py", line 934, in run
+    loop.run_forever()
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
+    self._run_once()
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
+    handle._run()
+  File "/usr/local/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/client.py", line 612, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/interaction_bot_base.py", line 1272, in on_application_command
+    await self.process_application_commands(interaction)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/interaction_bot_base.py", line 1264, in process_application_commands
+    await app_command.invoke(interaction)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/slash_core.py", line 680, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/params.py", line 817, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/utils.py", line 580, in maybe_coroutine
+    return await value
+  File "/home/container/main.py", line 305, in esp
+    if str(reaction) == "▶":
+
+2022-06-15 06:18:20,700:WARNING:disnake.gateway: Shard ID None heartbeat blocked for more than 50 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/container/main.py", line 388, in <module>
+    bot.run(disc_token)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/client.py", line 934, in run
+    loop.run_forever()
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
+    self._run_once()
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
+    handle._run()
+  File "/usr/local/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/client.py", line 612, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/interaction_bot_base.py", line 1272, in on_application_command
+    await self.process_application_commands(interaction)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/interaction_bot_base.py", line 1264, in process_application_commands
+    await app_command.invoke(interaction)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/slash_core.py", line 680, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/params.py", line 817, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/utils.py", line 580, in maybe_coroutine
+    return await value
+  File "/home/container/main.py", line 305, in esp
+    if str(reaction) == "▶":
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/reaction.py", line 115, in __str__
+    def __str__(self) -> str:
+
+2022-06-15 06:18:30,794:WARNING:disnake.gateway: Shard ID None heartbeat blocked for more than 60 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/container/main.py", line 388, in <module>
+    bot.run(disc_token)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/client.py", line 934, in run
+    loop.run_forever()
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
+    self._run_once()
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
+    handle._run()
+  File "/usr/local/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/client.py", line 612, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/interaction_bot_base.py", line 1272, in on_application_command
+    await self.process_application_commands(interaction)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/interaction_bot_base.py", line 1264, in process_application_commands
+    await app_command.invoke(interaction)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/slash_core.py", line 680, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/ext/commands/params.py", line 817, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/utils.py", line 580, in maybe_coroutine
+    return await value
+  File "/home/container/main.py", line 316, in esp
+    elif str(reaction) == "◀":
+  File "/home/container/.local/lib/python3.10/site-packages/disnake/reaction.py", line 115, in __str__
+    def __str__(self) -> str:
+

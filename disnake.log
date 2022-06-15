@@ -1,0 +1,76 @@
+2022-06-15 03:16:56,369:WARNING:disnake.state: Guilds intent seems to be disabled. This may cause state related issues.
+2022-06-15 03:16:56,369:WARNING:disnake.client: PyNaCl is not installed, voice will NOT be supported
+2022-06-15 03:16:56,369:DEBUG:disnake.client: on_ready has successfully been registered as an event
+2022-06-15 03:16:56,370:INFO:disnake.client: logging in using static token
+2022-06-15 03:16:56,585:DEBUG:disnake.http: GET https://discord.com/api/v10/users/@me with None has returned 200
+2022-06-15 03:16:56,585:DEBUG:disnake.http: GET https://discord.com/api/v10/users/@me has received {'id': '983934538218627102', 'username': 'Clara (Test Bot 1)', 'avatar': 'f64bd8920337db655a4ec2b4dd6611b4', 'avatar_decoration': None, 'discriminator': '1364', 'public_flags': 0, 'flags': 0, 'bot': True, 'banner': None, 'banner_color': None, 'accent_color': None, 'bio': '', 'pronouns': '', 'locale': 'en-US', 'mfa_enabled': True, 'email': None, 'verified': True}
+2022-06-15 03:16:56,664:DEBUG:disnake.http: GET https://discord.com/api/v10/gateway/bot with None has returned 200
+2022-06-15 03:16:56,664:DEBUG:disnake.http: GET https://discord.com/api/v10/gateway/bot has received {'url': 'wss://gateway.discord.gg', 'shards': 1, 'session_start_limit': {'total': 1000, 'remaining': 987, 'reset_after': 68294902, 'max_concurrency': 1}}
+2022-06-15 03:16:56,821:DEBUG:disnake.gateway: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=10&compress=zlib-stream
+2022-06-15 03:16:56,825:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 10, 'd': {'heartbeat_interval': 41250, '_trace': ['["gateway-prd-main-t8sb",{"micros":0.0}]']}}
+2022-06-15 03:16:56,825:INFO:disnake.gateway: Shard ID None has sent the IDENTIFY payload.
+2022-06-15 03:16:56,878:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-06-15 03:16:56,955:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': 'READY', 's': 1, 'op': 0, 'd': {'v': 10, 'user_settings': {}, 'user': {'verified': True, 'username': 'Clara (Test Bot 1)', 'mfa_enabled': True, 'id': '983934538218627102', 'flags': 0, 'email': None, 'discriminator': '1364', 'bot': True, 'avatar': 'f64bd8920337db655a4ec2b4dd6611b4'}, 'session_type': 'normal', 'session_id': 'fd3b3b32ce722f0ce025b4c58de37d82', 'relationships': [], 'private_channels': [], 'presences': [], 'guilds': [{'unavailable': True, 'id': '854584529229578260'}, {'unavailable': True, 'id': '982374168408502312'}], 'guild_join_requests': [], 'geo_ordered_rtc_regions': ['newark', 'us-east', 'us-central', 'atlanta', 'us-south'], 'application': {'id': '983934538218627102', 'flags': 2621440}, '_trace': ['["gateway-prd-main-t8sb",{"micros":77523,"calls":["discord-sessions-green-prd-2-146",{"micros":73956,"calls":["start_session",{"micros":43157,"calls":["discord-api-d887bb4d9-hpdm4",{"micros":38298,"calls":["get_user",{"micros":10530},"add_authorized_ip",{"micros":1608},"get_guilds",{"micros":4870},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":4512,"calls":[]}]}]}]']}}
+2022-06-15 03:16:56,955:DEBUG:disnake.client: Dispatching event socket_event_type
+2022-06-15 03:16:56,955:INFO:disnake.gateway: Shard ID None has connected to Gateway: ["gateway-prd-main-t8sb",{"micros":77523,"calls":["discord-sessions-green-prd-2-146",{"micros":73956,"calls":["start_session",{"micros":43157,"calls":["discord-api-d887bb4d9-hpdm4",{"micros":38298,"calls":["get_user",{"micros":10530},"add_authorized_ip",{"micros":1608},"get_guilds",{"micros":4870},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":4512,"calls":[]}]}]}] (Session ID: fd3b3b32ce722f0ce025b4c58de37d82).
+2022-06-15 03:16:56,956:DEBUG:disnake.client: Dispatching event connect
+2022-06-15 03:16:57,035:DEBUG:disnake.http: GET https://discord.com/api/v10/oauth2/applications/@me with None has returned 200
+2022-06-15 03:16:57,035:DEBUG:disnake.http: GET https://discord.com/api/v10/oauth2/applications/@me has received {'id': '983934538218627102', 'name': 'Clara (Test Bot 1)', 'icon': 'f64bd8920337db655a4ec2b4dd6611b4', 'description': 'A version of Discboom Bot for testing new features prior to release', 'summary': '', 'type': None, 'hook': True, 'bot_public': True, 'bot_require_code_grant': False, 'verify_key': '844fe0040afc36b2482ad23d5d9074c6182f85b8f0cd4b77557eb7fc7cdc532f', 'owner': {'id': '161968662540976128', 'username': '❤ Bea ❤', 'avatar': 'c1f786f7e2901701abd19b79f4b41ce9', 'avatar_decoration': None, 'discriminator': '9494', 'public_flags': 64, 'flags': 64}, 'flags': 2621440, 'team': None}
+2022-06-15 03:16:57,130:DEBUG:disnake.http: GET https://discord.com/api/v10/applications/983934538218627102/commands with None has returned 200
+2022-06-15 03:16:57,130:DEBUG:disnake.http: GET https://discord.com/api/v10/applications/983934538218627102/commands has received [{'id': '986484673913974784', 'application_id': '983934538218627102', 'version': '986484673913974793', 'default_permission': True, 'default_member_permissions': None, 'type': 1, 'name': 'elements', 'name_localizations': None, 'description': 'Prints a picture of the elemental strength/weakness chart', 'description_localizations': None, 'dm_permission': True}, {'id': '986484673913974785', 'application_id': '983934538218627102', 'version': '986484673947500614', 'default_permission': True, 'default_member_permissions': None, 'type': 1, 'name': 'esp', 'name_localizations': None, 'description': 'Shows esper tier list position and corresponding information', 'description_localizations': None, 'dm_permission': True, 'options': [{'type': 3, 'name': 'esp_name', 'name_localizations': None, 'description': '-', 'description_localizations': None, 'required': True}]}, {'id': '986484673913974786', 'application_id': '983934538218627102', 'version': '986484673947500615', 'default_permission': True, 'default_member_permissions': None, 'type': 1, 'name': 'disc', 'name_localizations': None, 'description': 'Sends an invite to the official Dislyte discord server', 'description_localizations': None, 'dm_permission': True}, {'id': '986484673913974787', 'application_id': '983934538218627102', 'version': '986484673947500616', 'default_permission': True, 'default_member_permissions': None, 'type': 1, 'name': 'bothelp', 'name_localizations': None, 'description': 'Sends an invite to the Discboom bot discord server', 'description_localizations': None, 'dm_permission': True}, {'id': '986484673913974788', 'application_id': '983934538218627102', 'version': '986484673947500617', 'default_permission': True, 'default_member_permissions': None, 'type': 1, 'name': 'invite', 'name_localizations': None, 'description': 'invite Discboom to your own server', 'description_localizations': None, 'dm_permission': True}, {'id': '986484673913974789', 'application_id': '983934538218627102', 'version': '986484673947500618', 'default_permission': True, 'default_member_permissions': None, 'type': 1, 'name': 'codes', 'name_localizations': None, 'description': 'Prints a list of the active disltye gift codes!', 'description_localizations': None, 'dm_permission': True}, {'id': '986484673913974790', 'application_id': '983934538218627102', 'version': '986484673947500619', 'default_permission': True, 'default_member_permissions': None, 'type': 1, 'name': 'contributors', 'name_localizations': None, 'description': 'A list of contributors to the bot and sources for all of our information', 'description_localizations': None, 'dm_permission': True}, {'id': '986484673913974791', 'application_id': '983934538218627102', 'version': '986484673947500620', 'default_permission': True, 'default_member_permissions': None, 'type': 1, 'name': 'holo', 'name_localizations': None, 'description': 'Helpful information about the holobattle system', 'description_localizations': None, 'dm_permission': True}, {'id': '986484673913974792', 'application_id': '983934538218627102', 'version': '986484673947500621', 'default_permission': True, 'default_member_permissions': None, 'type': 1, 'name': 'help', 'name_localizations': None, 'description': 'Display a list of bot commands', 'description_localizations': None, 'dm_permission': True}]
+2022-06-15 03:16:57,131:DEBUG:disnake.ext.commands.interaction_bot_base: Application command synchronization:
+GLOBAL COMMANDS
+===============
+| NOTE: global commands can take up to 1 hour to show up after registration.
+|
+| Update is required: False
+| To upsert:
+|     -
+| To edit:
+|     -
+| To delete:
+|     -
+| No changes:
+|     <SlashCommand name='elements'>
+|     <SlashCommand name='esp'>
+|     <SlashCommand name='disc'>
+|     <SlashCommand name='bothelp'>
+|     <SlashCommand name='invite'>
+|     <SlashCommand name='codes'>
+|     <SlashCommand name='contributors'>
+|     <SlashCommand name='holo'>
+|     <SlashCommand name='help'>
+2022-06-15 03:16:57,131:DEBUG:disnake.ext.commands.interaction_bot_base: Command synchronization task has finished
+2022-06-15 03:16:58,952:DEBUG:disnake.client: Dispatching event ready
+2022-06-15 03:17:38,080:DEBUG:disnake.gateway: Keeping shard ID None websocket alive with sequence 1.
+2022-06-15 03:17:38,139:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-06-15 03:18:19,342:DEBUG:disnake.gateway: Keeping shard ID None websocket alive with sequence 1.
+2022-06-15 03:18:19,391:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-06-15 03:19:00,598:DEBUG:disnake.gateway: Keeping shard ID None websocket alive with sequence 1.
+2022-06-15 03:19:00,649:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-06-15 03:19:41,852:DEBUG:disnake.gateway: Keeping shard ID None websocket alive with sequence 1.
+2022-06-15 03:19:41,900:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-06-15 03:20:23,107:DEBUG:disnake.gateway: Keeping shard ID None websocket alive with sequence 1.
+2022-06-15 03:20:23,157:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-06-15 03:21:04,357:DEBUG:disnake.gateway: Keeping shard ID None websocket alive with sequence 1.
+2022-06-15 03:21:04,421:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-06-15 03:21:45,614:DEBUG:disnake.gateway: Keeping shard ID None websocket alive with sequence 1.
+2022-06-15 03:21:45,665:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-06-15 03:22:26,879:DEBUG:disnake.gateway: Keeping shard ID None websocket alive with sequence 1.
+2022-06-15 03:22:26,932:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-06-15 03:23:08,130:DEBUG:disnake.gateway: Keeping shard ID None websocket alive with sequence 1.
+2022-06-15 03:23:08,182:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-06-15 03:23:49,383:DEBUG:disnake.gateway: Keeping shard ID None websocket alive with sequence 1.
+2022-06-15 03:23:49,435:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-06-15 03:24:30,645:DEBUG:disnake.gateway: Keeping shard ID None websocket alive with sequence 1.
+2022-06-15 03:24:30,754:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-06-15 03:25:11,901:DEBUG:disnake.gateway: Keeping shard ID None websocket alive with sequence 1.
+2022-06-15 03:25:11,950:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-06-15 03:25:53,160:DEBUG:disnake.gateway: Keeping shard ID None websocket alive with sequence 1.
+2022-06-15 03:25:53,213:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-06-15 03:26:34,420:DEBUG:disnake.gateway: Keeping shard ID None websocket alive with sequence 1.
+2022-06-15 03:26:34,470:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-06-15 03:27:15,676:DEBUG:disnake.gateway: Keeping shard ID None websocket alive with sequence 1.
+2022-06-15 03:27:15,725:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2022-06-15 03:27:56,937:DEBUG:disnake.gateway: Keeping shard ID None websocket alive with sequence 1.
+2022-06-15 03:27:56,990:DEBUG:disnake.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
